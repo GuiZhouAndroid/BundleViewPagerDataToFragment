@@ -46,6 +46,6 @@ public class OneFragment extends Fragment {
      */
     private void getData() {
         Bundle bundle = getArguments();
-        tv_show_data.setText("获取MainActivity的数据==="+bundle.getString("putData"));
+        tv_show_data.setText("获取MainActivity的数据==="+bundle.getString("putData1"));
     }
 }
